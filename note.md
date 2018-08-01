@@ -4,6 +4,8 @@ User:
 - view account
 - view products
 - add products in cart (on products index page)
+- use bcrypt for password hashing
+- use omniauth (google) - add this feature later
 
 Admin user:
 - add/delete/edit products
