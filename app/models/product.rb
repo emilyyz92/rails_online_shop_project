@@ -4,6 +4,7 @@ class Product < ApplicationRecord
   has_many :users, through: :items
 
   validates :name, presence: true
+  validates :name, uniqueness: true
   validates :price, numericality: {greater_than: 0}
   validates :price, presence: true
   validates :inventory, presence: true
